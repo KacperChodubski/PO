@@ -18,6 +18,6 @@ int main() {
     wolf2.dexterity = 11;
     world.organisms->add(wolf2);
 
-    //bla bla
+
     return 0;
 }
