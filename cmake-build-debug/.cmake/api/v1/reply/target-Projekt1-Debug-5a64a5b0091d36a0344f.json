@@ -2,10 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Projekt1.exe"
-		},
-		{
-			"path" : "Projekt1.pdb"
+			"path" : "Projekt1"
 		}
 	],
 	"backtrace" : 1,
@@ -38,7 +35,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
+					"fragment" : "-g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
 				},
 				{
 					"fragment" : "-std=gnu++14"
@@ -77,16 +74,12 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
-			},
-			{
-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
-				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
 	"name" : "Projekt1",
-	"nameOnDisk" : "Projekt1.exe",
+	"nameOnDisk" : "Projekt1",
 	"paths" : 
 	{
 		"build" : ".",
